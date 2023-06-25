@@ -11,7 +11,7 @@ func calculateDaysBetweenDates(date1, date2 string) int {
 
 func makeMult(base int) func(int) int {
 	return func(factor int) int {
-		return base * factor
+		return base * factor * factor
 	}
 }
 
